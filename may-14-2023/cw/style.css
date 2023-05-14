@@ -1,0 +1,65 @@
+.batash {
+    color: orange;
+}
+
+/* this is a comment */
+
+.monu {
+    width: 300px;
+    color: green;
+    font-size: 22px;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    font-style: italic;
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    font-family: arial;
+    text-decoration: underline;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    border: 6px solid green;
+    border-radius: 6px;
+    /* 
+    border-width: 2px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-style: solid;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: #000; 
+    border-top-color: #000; 
+    border-right-color: #000; 
+    border-bottom-color: #000; 
+    border-left-color: #000; 
+    border-top: 2px solid green;
+    border-right: 2px solid green;
+    border-bottom: 2px solid green;
+    border-left: 2px solid green;
+    */
+    /* 
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px; 
+    margin: 20px 30px 40px 50px;
+    margin: 20px 30px;
+    margin: 20px 30px 40px;
+    */
+    margin: -100px auto 100px;
+    /*
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px; 
+    padding: 20px 30px 40px 50px;
+    padding: 20px 30px;
+    padding: 20px 30px 40px;
+    */
+    padding: 30px;
+    box-shadow: 0px 0px 20px black inset, 0px 0px 20px black;
+}
