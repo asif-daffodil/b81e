@@ -1,0 +1,12 @@
+.main{
+    margin: 150px;
+}
+.flagupper{
+    background-color:black;
+}
+.flagmiddle{
+    background-color: red;
+}
+.flaglower{
+    background-color: yellow;
+}

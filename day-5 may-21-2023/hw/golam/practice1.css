@@ -1,0 +1,60 @@
+.green{
+  background-color: darkgreen; width: 375px; height: 200px; margin: 0px; padding: 0px; display: flex; justify-content: center; align-items: center;
+}
+.red{
+border: solid; width: 100px; height: 100px; background-color: red; border-radius: 100%;
+}
+.white{
+  display: flex; justify-content: center; align-items: center; background-color: white; width: 375px; height: 200px 
+}
+.Red{
+  width: 100px; height: 100px; border-radius: 100%; background-color: red;
+}
+.a{
+  margin: 0px; padding: 0px; background-color: black; width: 100%px; height: 100px;
+}
+.b{
+  margin: 0px; padding: 0px; background-color: red; width: 100%px; height: 100px;
+}
+.c{
+  margin: 0px; padding: 0px; background-color: yellow; width: 100%px; height: 100px;
+}
+.d{
+  margin: 0px; background-color: blue; width: 100%px; height: 100px;
+}
+.e{
+  margin: 0px; padding: 0px;  background-color: white; width: 100%px; height: 100px;
+}
+.f{
+ margin: 0px; padding: 0px; background-color: red; width: 100%px; height: 100px;
+}
+.g{
+  margin: 0px; padding: 0px; background-color: deepskyblue; width: 100%px; height: 100px;
+}
+.h{
+  margin: 0px; padding: 0px; background-color: white; width: 100%px; height: 100px; display: flex; justify-content: center; align-items: center;
+}
+.x{
+  width: 90px; height: 90px; background-color: yellow; border-radius: 100%;
+}
+.i{
+  margin: 0px; padding: 0px; background-color: deepskyblue; width: 100%px; height: 100px;
+}
+.j{
+  height: 200px; width: 100%px; background-color: green; display: flex; justify-content: center; align-items: center
+}
+.k{
+  height: 100px; width: 100px; background-color: yellow; rotate: 45deg; display: flex; justify-content: center; align-items: center;
+}
+.l{
+  height: 50px; width:50px; background-color: skyblue; border-radius: 100%
+}
+.m{
+  width: 100%px; height: 200px; background-color: dodgerblue;
+}
+.n{
+  width: 100%px; height: 20px; background-color: yellow;
+}
+.o{
+  width: 20px; height: 180px; background-color: orange;
+}

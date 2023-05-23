@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.dhaka {
+    width: 200px;
+    background-color: rgba(100, 100, 255, 0.5);
+    padding: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.ctg  {
+    width: 200px;
+    height: 100px;
+    background: #000;
+    margin: 50px -50px;
+    color: #fff;
+    opacity: 0.5;
+    float: left;
+}
+
+.dhanmondi {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to top right, #f00, #00f, #0f0);
+    margin: 20px auto;
+    float: left;
+}
+
+.dipti {
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(#fff 50%, #000, #ccc);
+}
+
+.parent {
+    overflow: hidden;
+}
+
+.m1920 {
+    width: 400px;
+    height: 400px;
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px;
+}
+
+.afterParent {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top right, rgba(0,0,0,0.5), rgba(255,255,255,0.5), rgba(0,0,0,0.5)), url("../images/bg2.jpg") no-repeat center /cover;
+    background-attachment: fixed;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 64px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: Arial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.b {
+    width: 300px;
+    height: 200px;
+    background: green;
+    margin: 20px;
+    display: flex;
+}
+
+.y {
+    width: 220px;
+    height: 120px;
+    background: yellow;
+    margin: auto;
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+    margin: auto;
+    display: flex;
+}
+
+.ball {
+    width: 80px;
+    height: 80px;
+    background: blue;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mall {
+    width: 240px;
+    height: 240px;
+    border: 20px double #fff;
+    border-radius: 50%;
+    margin-left: -80px;
+    margin-top: 30px;
+}
+
+.tea {
+    width: 300px;
+    height: 200px;
+    background: green;
+    display: flex;
+    margin: 20px;
+}
+
+.break {
+    width: 120px;
+    height: 120px;
+    background: red;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.pp{
+    color: #149FF9;
+    font-size: 31px;
+}
+
+.hasan {
+    width: 50%;
+    height: 200px;
+    background: black;
+}
+
+.ashraful {
+    width: calc(80% - 20px);
+    height: 50%;
+    background: #ccc;
+}
