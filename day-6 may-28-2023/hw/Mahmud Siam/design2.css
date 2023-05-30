@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(189, 237, 240, 0.7);
+    background-image: url(./HW/w1.png);
+    background-repeat: no-repeat;
+    background-size: 450px 450px;
+    background-position: right bottom;
+    padding: 30px;
+}
+/* task er  moddhe shob kisu ase */
+.task{
+    width: 800px;
+    height: 400px;
+    background-image: url(./HW/mmessi.png);
+    background-repeat: no-repeat;
+    background-size: 300px 400px;
+    background-position: right;
+    margin-left: 20px;
+}
+.blue{
+    width: 560px;
+    height: 400px;
+    background-color: #0000FF;
+    clip-path: polygon(0 0, 99% 0, 83% 100%, 0% 100%);
+}
+
+.three{
+    width: 465px;
+    height: 400px;
+}
+#heading{
+    color: white;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+#para{
+    color: white;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 17px;
+}
+#photo{
+    width: 100px;
+    height: 40px;
+    margin-left: 75px;
+    margin-top: 10px;
+}

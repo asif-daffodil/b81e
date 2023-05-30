@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: DejaVuSans;
+    src: url(../font/DejaVuSans.ttf);
+  }
+
+
+body {
+    font-size: 14px;
+    font-family: DejaVuSans;
+    background-color: #efefef;
+}
+
+section#wrapper {
+    padding: 20px;
+}
+
+.section-inner {
+    background-image: url("../images/fullbg.jpg");
+    background-size: cover;
+    background-position: center 55%;
+    padding: 0 10px;
+    overflow: hidden;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+
+}
+
+.left-content {
+    width: 100%;
+    max-width: 55%;
+
+}
+
+.right-content img {
+    max-width: 95%;
+    vertical-align: middle;
+}
+
+.right-content {
+    text-align: right;
+    max-width: 35%;
+}
+
+.left-content {
+    padding: 5% 5% 5% 10% !important;
+}
+
+.left-content  * {
+    color: #fff !important;
+}
+
+.left-content h2 {
+    font-size: 52px;
+    font-family: DejaVuSans;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-weight: normal !important;
+}
+
+.left-content p {
+    font-size: 15px;
+    font-family: DejaVuSans;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: normal !important;
+}
+
+a.read-more-btn {
+    font-family: DejaVuSans;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 20px;
+    display: inline-block;
+    background-color: #ec2c55;
+    margin-top: 24px;
+    border-radius: 32px;
+    transition: all .2s ease-in-out;
+    border: 2px solid #ec2c55;
+}
+
+a.read-more-btn:hover {
+    background-color: transparent;
+}
+
+
+.section-inner-2 {
+    overflow: hidden;
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+section#wrapper2 {
+    margin: 50px;
+}
+.left-content-2.float-left {
+    max-width: 55%;
+    padding: 5% 5% 5% 10%;
+}
+
+.right-content-2 img {
+    max-width: 100%;
+}
+
+.right-content-2.float-right {
+    width: 35%;
+}
+.section-inner-2 {
+    background-image: url(../images/blue_bg.png);
+    background-position: left;
+    background-size: 67% 100%;
+    background-repeat: no-repeat;
+}

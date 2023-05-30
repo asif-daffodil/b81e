@@ -1,0 +1,62 @@
+.main {
+  width: 500px;
+  height: 250px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+}
+
+.child {
+  background-color: blue;
+  width: 350px;
+  height: 250px;
+  padding: 0px 40px;
+  clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+
+.img {
+  padding-right: 20px;
+}
+.button {
+  width: 110px;
+  height: 20px;
+  background: red;
+  border-radius: 40px;
+  padding: 5px;
+  border: 1px solid white;
+  display: flex;
+}
+
+
+
+
+
+.rahim {
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: auto;
+  display: fle;
+  overflow: hidden;
+  
+}
+.karim {
+  width: 15px;
+  height: 15px;
+  border: .8px solid white;
+  rotate: 45deg;
+  margin: auto;
+  margin-top: px;
+  margin-left: -6px;
+  display: flex;
+}
+.malek {
+  width: 10px;
+  height: 10px;
+  border:.8px solid white;
+  rotate: 90deg;
+  margin: auto;
+}

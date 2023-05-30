@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.dhaka {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../iamges/bg.png");
+    font-size: 12vw;
+    font-weight: bolder;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-attachment: fixed;
+}
+
+.p1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.ch1 {
+    width: 200px;
+    height: 200px;
+    background: cornflowerblue;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.ch2 {
+    width: 200px;
+    height: 200px;
+    background: limegreen;
+    position: relative;
+    bottom: 40px;
+    right: -60px;
+    z-index: -100;
+}
+
+.nati1 {
+    width: 100px;
+    height: 100px;
+    background: hotpink;
+    position: absolute;
+    top: 20px;
+    left: 75%;
+}
+
+.nati1::before {
+    content: "Md ";
+}
+
+.nati1::after {
+    content: ".";
+}
+
+.mobile-baze {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url("../iamges/bg.png");
+}
+
+.shomudro {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    border: 10px solid #000;
+    position: relative;
+    background: url("../iamges/bg.gif");
+}
+
+.shomudro::before, .shomudro::after {
+    content: "";
+    width: 50%;
+    height: 100%;
+    border: 10px solid #000;
+    position: absolute;
+    top: -10px;
+    background: linear-gradient(rgba(100,100,255,0.6), rgba(100,255,255,0.6)), url("../iamges/janala.png");
+    transition: 0.5s;
+}
+
+.shomudro::before {
+    left: -20px;
+}
+
+.shomudro::after {
+    right: -20px;
+}
+
+.shomudro:hover::before {
+    left: -320px;
+}
+
+.shomudro:hover::after {
+    right: -320px;
+}
+
+.siam {
+    width: 360px;
+    height: 480px;
+    background: url("../iamges/siam.jpg");
+    background-size: cover;
+    margin: 20px;
+}
+
+.siam:hover {
+    background: url("../iamges/srk2.jpg");
+    background-size: cover;
+}

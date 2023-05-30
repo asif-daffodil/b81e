@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.parent{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    background: #F3F3F3;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.back{
+    width: 500px;
+    height: 500px;
+    background: antiquewhite;
+    clip-path: polygon(0 0,100% 0,85% 100%,0 100%);
+}
+.content{
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+.text{
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    background: rgb(201, 29, 29);
+    border-radius: 100%;
+}
+.picture{
+    margin-top: 20px;
+    width: 400px;
+    height: 500px;
+    background: url("./Image/kindpng_1693348.png") no-repeat;
+    background-size: 100%;
+}

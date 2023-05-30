@@ -1,0 +1,55 @@
+body{
+    /* background-color: yellow; */
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 1280px;
+    height: 720px;
+    /* background-color: aqua; */
+    background-image: url(./HW/mmessi.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+}
+
+.text{
+    width: 994px;
+    height: 720px;
+    clip-path: polygon(0 0, 88% 0, 70% 100%, 0 100%);
+    background-color: blue;
+}
+
+.text2{
+    width: 750px;
+    height: 720px;
+    /* background-color: plum; */
+}
+
+#heading{
+    font-size: 52px;
+    color: #ffffff;
+    padding-top: 70px;
+    padding-left: 166px;
+    
+
+}
+#writing{
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 74px;
+    padding-left: 166px;
+}
+
+#cimg{
+    padding-top: 44px;
+    padding-left: 166px;
+    padding-bottom: 90px;
+
+}
