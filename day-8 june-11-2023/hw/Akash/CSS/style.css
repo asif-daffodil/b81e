@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "pic1 pic2 pic3 pic4 pic4 pic5" "pic6 pic7 pic3 pic8 pic8 pic9" "pic6 pic10 pic10 pic8 pic8 pic9 ";
+    grid-gap: 4px;
+    border-radius: 10px;
+}
+
+.main > div {
+    border-radius: 5px;
+    background-image: url("../Pictures/Piture\ 1.JPG");
+    background-size: cover;  
+    background-position: center;
+}
+
+.main > div:first-child{
+    grid-area: pic1 ;
+    background-image: url("../Pictures/Piture\ 1.JPG");  
+}
+
+.main > div:nth-child(2){
+    grid-area: pic2 ;
+    background-image: url("../Pictures/Piture\ 2.JPG");
+}
+
+.main > div:nth-child(3){
+    grid-area: pic3 ;
+    background-image: url("../Pictures/Piture\ 3.JPG");
+}
+
+.main > div:nth-child(4){
+    grid-area: pic4 ;
+    background-image: url("../Pictures/Piture\ 4.JPG");
+}
+
+.main > div:nth-child(5){
+    grid-area: pic5 ;
+    background-image: url("../Pictures/Piture\ 5.JPG");
+}
+
+.main > div:nth-child(6){
+    grid-area: pic6 ;
+    background-image: url("../Pictures/Piture\ 6.JPG");
+}
+
+.main > div:nth-child(7){
+    grid-area: pic7 ;
+    background-image: url("../Pictures/Piture\ 7.JPG");
+}
+
+.main > div:nth-child(8){
+    grid-area: pic8 ;
+    background-image: url("../Pictures/Piture\ 8.JPG");
+}
+
+.main > div:nth-child(9){
+    grid-area: pic9 ;
+    background-image: url("../Pictures/Piture\ 9.JPG");
+}
+
+.main > div:last-child{
+    grid-area: pic10;
+    background-image: url("../Pictures/Piture\ 10.JPG");
+}

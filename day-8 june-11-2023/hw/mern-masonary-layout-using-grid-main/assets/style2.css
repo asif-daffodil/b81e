@@ -1,0 +1,62 @@
+.masonry {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    grid-gap: 10px;
+    grid-template-areas:
+        "item2 item2 item3"
+        "item4 item5 item3"
+        "item4 item6 item6";
+}
+
+
+.item {
+    background-image: url(./images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 0;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    border-radius: 5px;
+
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+    padding-bottom: 0;
+    background-image: url(./images/image2.jpg);
+
+}
+
+.item3 {
+    grid-area: item3;
+    padding-top: 100%;
+    padding-bottom: calc(100% + 10px);
+    background-image: url(./images/image3.jpg);
+}
+
+.item4 {
+    grid-area: item4;
+    padding-top: 100%;
+    padding-bottom: calc(100% + 5px);
+    background-image: url(./images/image4.jpg);
+}
+
+.item5 {
+    grid-area: item5;
+    background-image: url(./images/image5.jpg);
+
+}
+
+.item6 {
+    padding-bottom: 0;
+    grid-area: item6;
+    padding-top: calc(50% - 10px);
+    background-image: url(./images/image6.jpg);
+}

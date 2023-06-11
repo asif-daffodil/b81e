@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    cursor: url("../Images/cursor.png"), auto;
+}
+
+.siam {
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+    "i1 i1 i2 i2 i3 i3 i4 i4 i4 i4 i5 i5"
+    "i6 i6 i7 i7 i3 i3 i8 i8 i8 i8 i9 i9"
+    "i6 i6 i10 i10 i10 i10 i8 i8 i8 i8 i9 i9";
+}
+
+.img1 {
+    border-radius: 10px;
+    grid-area: i1;
+    background-image: url(../Images/img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 216px 206px;
+    background-position: center;
+}
+
+.img2 {
+    border-radius: 10px;
+    grid-area: i2;
+    background-image: url(../Images/img2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 216px 206px;
+    background-position: center;
+}
+
+.img3 {
+    border-radius: 10px;
+    grid-area: i3;
+    background-image: url(../Images/img3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img4 {
+    border-radius: 10px;
+    grid-area: i4;
+    background-image: url(../Images/img4.jpeg), url(../Images/rep.jpeg);
+    background-repeat: no-repeat;
+    background-size: 218px 206px;
+    background-position: 0% 0%, 100% 0%;
+}
+
+.img5 {
+    border-radius: 10px;
+    grid-area: i5;
+    background-image: url(../Images/img5.jpeg);
+    background-repeat: no-repeat;
+    background-size: 216px 206px;
+    background-position: center;
+}
+
+.img6 {
+    border-radius: 10px;
+    grid-area: i6;
+    background-image: url(../Images/img6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img7 {
+    border-radius: 10px;
+    grid-area: i7;
+    background-image: url(../Images/img7a.jpeg);
+    background-repeat: no-repeat;
+    background-size: 216px 206px;
+    background-position: center;
+}
+
+.img3 {
+    grid-area: i3;
+}
+
+.img8 {
+    border-radius: 10px;
+    grid-area: i8;
+    background-image: url(../Images/img8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img9 {
+    border-radius: 10px;
+    grid-area: i9;
+    background-image: url(../Images/img9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img10 {
+    border-radius: 10px;
+    grid-area: i10;
+    background-image: url(../Images/img10.jpeg), url(../Images/img7.jpeg);
+    background-repeat: no-repeat;
+    background-size: 218px 206px;
+    background-position: 0% 0%, 100% 0%;
+}

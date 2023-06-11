@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.f{
+    height: 100vh;width: 100%;
+    background-color: gray;
+    display: flex;
+}
+.g
+{width: 700px;;height: 420px;
+    background: white;
+position: relative;
+margin: auto;
+}
+.a{
+    height: 360px;
+    width: 323px;
+    background: url(./img/putin\ pic.png) no-repeat;
+    position: absolute;
+    background-size: cover;
+    margin: auto;
+    top: 25px;
+    left: 25px;
+}
+.b{ position: absolute;
+        right: 22px;
+      top: 66px;
+           width: 230px;
+          height: 50px;
+         background: url(./img/putin\ v.png) no-repeat right ;
+       background-position: right ;
+       margin: 1cm;
+      background-size: cover;
+    
+}
+.c{
+    height: 111px;
+    width: 270px;
+    background: url(./img/putin\ text.png)no-repeat right;
+    position: absolute;
+    background-position: right;
+    background-size: cover;
+    left: 400px;
+    top: 180px;
+
+}
+  .d{
+    width: 85px;
+    height: 25px;
+
+    background: url(./img/putin\ r.png) no-repeat right bottom;
+    background-position: right;
+    margin: auto;
+    background-size: cover;
+    position: absolute;
+   right: 210px;
+   bottom: 50px;
+   
+  }

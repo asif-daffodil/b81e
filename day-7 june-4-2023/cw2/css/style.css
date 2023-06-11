@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url("../images/cursor.png"), auto;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: limegreen;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+}
+
+.main > div {
+    background: dodgerblue;
+}
+
+.pain {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "area1 area1 area2" "area3 area4 area4" "area5 area5 area5";
+}
+
+.pain > div {
+    background: dodgerblue;
+}
+
+
+.pain > div:first-child{
+    grid-area: area1;
+}
+
+.pain > div:nth-child(2) {
+    grid-area: area2;
+}
+.pain > div:nth-child(3) {
+    grid-area: area3;
+}
+.pain > div:nth-child(4) {
+    grid-area: area4;
+}
+
+.pain > div:last-child {
+    grid-area: area5;
+}
+

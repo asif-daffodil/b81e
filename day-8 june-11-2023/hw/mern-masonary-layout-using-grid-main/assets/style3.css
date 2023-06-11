@@ -1,0 +1,75 @@
+.masonry {
+    display: grid;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    grid-gap: 5px;
+    grid-template-rows: 170px;
+    grid-template-areas: "item1 item2 item3 item4 item4 item5"
+        "item6 item7 item3 item8 item8 item9"
+        "item6 item10 item10 item8 item8 item9";
+}
+
+
+.item {
+    background-image: url(./images/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+    background-image: url(./images/image2.jpg);
+
+}
+
+.item3 {
+    grid-area: item3;
+    background-image: url(./images/image3.jpg);
+    height: 345px;
+}
+
+.item4 {
+    grid-area: item4;
+    background-image: url(./images/image4.jpg);
+}
+
+.item5 {
+    grid-area: item5;
+    background-image: url(./images/image5.jpg);
+
+}
+
+.item6 {
+    grid-area: item6;
+    background-image: url(./images/image6.jpg);
+    height: 345px;
+}
+
+.item7 {
+    grid-area: item7;
+    background-image: url(./images/image7.jpg);
+}
+
+.item8 {
+    grid-area: item8;
+    background-image: url(./images/image8.jpg);
+    height: 350px;
+}
+
+.item9 {
+    grid-area: item9;
+    background-image: url(./images/image9.jpg);
+    height: 350px;
+}
+
+.item10 {
+    grid-area: item10;
+    background-image: url(./images/image10.jpg);
+}

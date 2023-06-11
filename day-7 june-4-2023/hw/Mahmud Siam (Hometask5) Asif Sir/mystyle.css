@@ -1,0 +1,191 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* putin er image + text er code shuru */
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url(./Images/sights-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.image{
+    width: 450px;
+    height: 500px;
+    float: left;
+    position: absolute;
+    left: 210px;
+    bottom: -140px;
+}
+.text{
+    width: 450px;
+    height: 500px;
+    background-color: white;
+    float: left;
+    position: absolute;
+    right: 239px;
+    bottom: -140px;
+    padding: 30px;
+}
+/* putin er image + text er code shesh */
+
+/* 4 ta background image niya kaj kora shuru hoise */
+.image4{
+    width: 100%;
+    height: 350px;
+    background-image: url(./Images/im1.webp), url(./Images/im2.jpg), url(./Images/im3.jpg), url(./Images/im4.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px 350px, 350px 350px, 350px 350px, 350px 350px;
+    background-position: 0% 0%, 33.33% 0%, 66.66% 0%, 99.99% 0%
+}
+/* 4 ta background image niya kaj kora shesh hoise */
+
+/* rain div shuru */
+.main2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/1A83.gif);
+}
+
+.put0{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    float: left;
+    position: absolute;
+    top: 1300px;
+    left: 110px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 24px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-style: italic;
+    background-image: linear-gradient(to top right, rgb(255,255,255),rgb(247, 148, 148),rgb(181, 153, 244));
+    border-radius: 20px;   
+}
+
+.put1{
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: absolute;
+    right: 60px;
+    top: 1300px;
+    background-image: url(./Images/put1.jpg);
+    background-size: 300px 300px;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.put2{
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: absolute;
+    right: 360px;
+    top: 1450px;
+    background-image: url(./Images/put2.jpg);
+    background-size: 300px 300px;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.put0:hover{
+    transform: scale(120%);
+}
+
+.put1:hover{
+    background-image: url(./Images/vladimir-putin-wink.gif);
+}
+
+.put2:hover{
+    background-image: url(./Images/vladimir-putin-wink.gif); 
+}
+/* rain div shesh */
+
+.first{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/tumblr_nun3qo6sGY1txe8seo1_500.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.gimage{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    background-image: url(./Images/gimage.gif);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+
+.img1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-image: url(./Images/img1.webp);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    background-image: url(./Images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    background-image: url(./Images/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+.img4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(./Images/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.gimage:hover{
+    .img1{
+        left: -200px;
+        transform: scale(120%);
+        transition: 2s;
+    }
+    .img2{
+        right: -200px;
+        transform: scale(120%);
+        transition: 2s;
+    }
+    .img3{
+        left: -200px;
+        transform: scale(120%);
+        transition: 2s;
+    }
+    .img4{
+        right: -200px;
+        transform: scale(120%);
+        transition: 2s;
+    }
+}

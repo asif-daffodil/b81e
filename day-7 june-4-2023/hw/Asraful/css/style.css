@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1280px;
+    height: 720px;
+    background-color: rgb(252, 250, 250);
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.ch1 {
+    width: 648px;
+    height: 720px;
+    display: flex;
+    background: url(../image/putin.png);
+
+}
+
+.ch2{
+    width: 632px;
+    height: 720px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-attachment: fixed;
+    /* margin-top: 50px; */
+    padding-top: 136px;
+    padding-left: 30px;
+    padding-right: 70px;
+
+}
+.subdiv{
+    margin-top: 20px;
+}
+

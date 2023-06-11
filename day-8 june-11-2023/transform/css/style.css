@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dhaka {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    transform: translate(20px, 20px);
+}
+
+.shyleth {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    transform: scale(1, 0.8) translate(20px, 30px);
+}
+
+.noakhali {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    transform: translate(20px, 30px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    transition: 0.5s;
+}
+
+.noakhali:hover{
+    transform: translate(20px, 30px) rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+
+
+.barishal {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    transform: translate(20px, 50px) skew(-9deg, -9deg)
+}
+
+.rajshahi {
+    width: 200px;
+    height: 300px;
+    margin: 60px;
+    border: 2px solid #000;
+    position: relative;
+}
+
+.rajshahi::before {
+    content: "hot";
+    padding: 8px 20px;
+    background: #fff;
+    border: 2px solid #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}

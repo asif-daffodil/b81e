@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cover {
+  width: 600px;
+  height: 350px;
+  background: oldlace;
+  margin: auto;
+  display: flex;
+  margin: 100px;
+}
+.putin {
+  width: 270px;
+  height: 320px;
+  margin: auto;
+  margin: 15px;
+  background: url("")
+}
+.text {
+  width: 270px;
+  height: 320px;
+  background: url("./HD-wallpaper-abstract-colors-abstract-colors-color-thumbnail.jpg");
+  margin: auto;
+  margin: 15px;
+  padding: 10px;
+  text-transform: uppercase;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.button {
+  width: 95px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(lightgreen, darkgreen);
+ color: blue;
+}
