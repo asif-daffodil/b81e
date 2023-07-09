@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main {
+
+    width: 1024px;
+    height: 720px;
+    background-color: #070a24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   }
+
+.div1 {
+    width: 250px;
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: center;
+    position: relative;
+    overflow: auto;
+  
+  
+}
+.pic1 {
+    width: 250px;
+    height: 300px;
+    background-image: url(./image/biden.jpg);
+    background-size: cover;
+
+    /* display: flex; */
+    
+}
+.lorem {
+    width: 250px;
+    height: 150px;
+    padding-top: 10px;
+    color: #fff;
+   
+    
+}
+.lorem > strong {
+    font-size: 16px; 
+   text-transform: uppercase;
+
+
+}

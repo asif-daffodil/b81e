@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+#siteWrappr {
+    background-color: #000;
+
+}
+h2, p {
+    margin: 10px 0 15px;
+}
+section#team {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 50px !important;
+    background-color: #000;
+}
+
+.team-title,
+p.team-description {
+    color: #fff !important;
+}
+
+.team-title span {
+    display: inline-block;
+    color: #da2267;
+    margin-right: 7px;
+}
+
+.section-inner-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.section-inner-wrap img {
+    max-width: 100%;
+}

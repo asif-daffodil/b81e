@@ -1,0 +1,179 @@
+body {
+    background-image: url("../Images/Team/background.jpg");
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    cursor: url("../Images/cursor.png") auto;
+
+}
+
+.fdiv {
+    width: 100%;
+    height: 50vh;
+}
+
+.gridi {
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    padding: 20px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas: 
+    "i1 i1 i2 i2 i2 i3 i3 i3 i3 i3 i4 i4"
+    "i5 i5 i2 i2 i2 i3 i3 i3 i3 i3 i6 i6"
+    "i7 i7 i8 i9 i9 i3 i3 i3 i3 i3 i10 i10"
+    "i11 i11 i11 i11 i11 i3 i3 i3 i3 i3 i12 i12";
+}
+
+.img1 {
+    grid-area: i1;
+    background-image: url("../Images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.img2 {
+    grid-area: i2;
+    background-image: url("../Images/IMG2.jpg");
+    background-repeat: no-repeat;
+    background-size: 325px 310px;
+    background-position: center;
+    border-radius: 10px;
+}
+.img3 {
+    grid-area: i3;
+    background-image: url("../Images/img3.png");
+    background-repeat: no-repeat;
+    background-size: 543px 620px;
+    background-position: center;
+    border-radius: 10px;
+}
+.img4 {
+    grid-area: i4;
+    background-image: url("../Images/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.img5 {
+    grid-area: i5;
+    background-image: url("../Images/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.img6 {
+    grid-area: i6;
+    background-image: url("../Images/img6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.img7 {
+    grid-area: i7;
+    background-image: url("../Images/img7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.img8 {
+    grid-area: i8;
+    background-image: url("../Images/img8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.img9 {
+    grid-area: i9;
+    background-image: url("../Images/img9.1.jpg"), url("../Images/img9.2.jpg");
+    background-repeat: no-repeat;
+    background-size: 107px 151px, 107px 151px;
+    background-position: 0% 0%, 100% 0%;
+    border-radius: 10px;
+}
+.img10 {
+    grid-area: i10;
+    background-image: url("../Images/img10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.img11 {
+    grid-area: i11;
+    background-image: url("../Images/img11.1.jpg"), url("../Images/img11.2.jpg"), url(../Images/img11.3.jpg), url(../Images/img11.4.jpg);
+    background-repeat: no-repeat;
+    background-size: 135px 151px, 137px 151px, 137px 151px, 137px 151px;
+    background-position: 0% 0%, 33.33% 0%, 66.66% 0%, 99.99% 0%;
+    border-radius: 10px;
+}
+.img12 {
+    grid-area: i12;
+    background-image: url("../Images/img12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+/* .gridi > div {
+    background-color: springgreen;
+} */
+
+.title {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: blue;
+    /* background-image: url("../Images/Team/background.jpg"); */
+}
+
+.flex {
+    width: 100%;
+    height: 500px;
+}
+
+.team {
+    width: 100%;
+    height: 500px;
+    /* background-image: url("../Images/Team/background.jpg");   */
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project {
+    width: 250px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

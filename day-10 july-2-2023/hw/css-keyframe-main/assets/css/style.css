@@ -1,0 +1,41 @@
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.wrap img {
+    max-width: 50%;
+}
+.wrap img:first-child {
+    margin-right: 30px;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes scale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+
+  .image1 {
+    animation: rotate 5s infinite linear;
+  }
+
+  .image2 {
+    animation: scale 3s infinite ease-in-out;
+  }

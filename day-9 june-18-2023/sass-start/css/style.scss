@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url();
+
+$fullWidth : 100%;
+$screenHeight : 100vh;
+$chuty : center;
+
+@mixin chieldCenter ($jc : center, $ai : center) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+.sec1 {
+    width: $fullWidth;
+    height: $screenHeight;
+    @include chieldCenter(center, $chuty);
+    >.logo{
+        width: 50%;
+        height: 50%;
+        >figure{
+            width: $fullWidth;
+            height: $fullWidth;
+            @include chieldCenter($ai : end);
+            >img {
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+}
+
+.akash {
+    width: 60px;
+    height: 6px;
+}
+
+.ashraful {
+    @extend .akash;
+    width: 30px;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f7edd3;
+}
+
+header {
+    background: #1d2775;
+    width: 100%;
+    height: 110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 56px;
+    >nav{
+        >ul{
+            list-style: none;
+            display: flex;
+            margin-left: auto;
+            >li{
+                margin: 0 34px;
+                >a{
+                    text-decoration: none;
+                    color: #f8eed4;
+                    font-size: 20px;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+.banner{
+    width: 100%;
+    background: #1d2775;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.45fr 2fr;
+    grid-gap: 100px;
+    padding-right: 56px;
+    >figure{
+        padding-bottom: 0px;
+        >img{
+            max-width: 100%;
+            vertical-align: middle;
+        }
+    }
+    >div{
+        color: #fff;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: start;
+        >h1{
+            font-size: 80px;
+            color: #f8eed4;
+        }
+        >article{
+            font-size: 18px;
+            margin: 40px 0px;
+            color: #dcdff7;
+        }
+        >button{
+            background: #e185a9;
+            border-width: 0;
+            color: #fff;
+            font-size: 22px;
+            width: 170px;
+            height: 50px;
+        }
+    }
+}
+
+.wcoc {
+    width: 100%;
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    >div{
+        &:first-child{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        }
+        >h2{
+            color: #1e2875;
+            font-size: 70px;
+            margin-bottom: 70px;
+        }
+        >ul{
+            list-style: none;
+            >li{
+                margin-bottom: 32px;
+                display: grid;
+                grid-template-columns: 1fr 100%;
+                grid-gap: 60px;
+                >img{
+                    width: 100%;
+                    margin-right: 20px;
+                }
+                >p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

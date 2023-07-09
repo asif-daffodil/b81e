@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background:url(../image/backgr.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+
+    >.container {
+
+        width: 800px;
+        height: 600px;
+        animation: move 10s infinite alternate;
+
+        >.roof {
+            height: 100px;
+            width: 12px;
+            background-color: #7e110f;
+            transform: skew(30deg);
+            -webkit-transform: skew(30deg);
+            position: relative;
+            left:460px;
+            bottom:-110px;
+           
+        }
+        >.roof2 {
+            height: 100px;
+            width: 300px;
+            background-color: #7e110f;
+            transform: skew(150deg);
+            -webkit-transform: skew(150deg);
+            position: relative;
+            left:112px;
+            bottom:-10px;
+          
+         }
+
+
+         >.wall{
+            width: 100%;
+            height: 240px;
+           display: flex;
+           position: relative;
+
+
+            >.wall1 {
+                width: 290px;
+                height: 240px;
+                background-image: url(../image/bamboo.jpg);
+                border: 2px solid black;
+                position: absolute;
+                left: 92px;
+                bottom:-10px;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+
+                    >.window {
+
+                        width: 60px;
+                        height: 80px;
+                        background: rgba(255, 255, 255, 0.52);
+                        border-radius: 4px;
+                        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                        backdrop-filter: blur(20px);
+                        -webkit-backdrop-filter: blur(20px);
+                        border: 1px solid rgba(255, 255, 255, 1);
+                        margin: auto;
+                    
+                    
+                    }
+
+
+           
+
+            
+                }
+
+                
+                >.wall2 {
+
+                    width: 118px;
+                    height: 240px;
+                    background-image: url(../image/bamboo2.jpg);
+                    border: 2px solid black;
+                    position: absolute;
+                    right: 300px;
+                    bottom:-10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+
+                 
+
+                    >.triangle {
+                        width: 0px;
+                        height: 0px;
+                        border-left: 56px solid transparent;
+                        border-right: 60px solid transparent;
+                        border-bottom: 100px solid #7e110f;
+                        top: -102px;
+                        position: absolute;
+                  
+                    }
+                    >.door {
+                        width: 50px;
+                        height: 100px;
+                        background-color: bisque;
+                        border: 2px solid black;
+                        position: absolute;
+                        
+                    
+                
+                    }
+                
+                 }
+
+        
+            
+        }
+
+        >.floor {
+
+            width: 600px;
+            height: 80px;
+            background-color: rgb(223, 217, 198);
+            // border:  2px solid rgb(189, 181, 181);
+            border-radius: 30%;
+            // box-shadow:-5px 20px 100px 50px lightblue;
+            animation: shadow 3s infinite alternate;
+
+            
+        }
+        
+       
+
+
+
+
+    }
+    @keyframes shadow {
+
+        0% { box-shadow:20px 10px 50px 20px lightblue}
+        100% {box-shadow:-5px 20px 100px 50px lightblue;}
+        
+    }
+    @keyframes move {
+
+         0% {transform: rotatez(25deg)}
+         25% {transform: rotatez(-25deg)}
+         50% {transform: rotatey(5deg)}
+        75% { transform: rotatey(-5deg)}
+        100% { transform: rotatey(20deg)}
+        
+    }
+
+}
+
