@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clnav {
+    background: #4d2020;
+    width:70vw;
+    margin: 20px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+      li {
+       
+        width: 100%;
+        list-style: none;
+        position: relative;
+            >a {
+                text-decoration: none;
+                color: #fff;
+                line-height: 50px;
+                display: block;
+                text-transform: uppercase;
+                background: #4d2020;
+
+               
+
+                &:hover {
+                    background-color: rgb(45, 119, 119);
+                    >.s {
+                        display: block;
+                    }
+                }
+            
+            }
+            &:hover {
+               
+                >.s {
+                    display: block;
+                }
+            }
+
+            >ul {
+                list-style: none;
+                
+            }
+
+   }
+.s {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none;
+      >li  {
+        &:hover {
+            >.sub {
+                display: block;
+            }
+        }
+    }
+   
+}
+.sub {
+    @extend .s;
+    top: 0%;
+    left: 100%;
+
+}
+
+}

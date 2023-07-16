@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
 }
+
+$op : 'Open Sans', sans-serif;
 
 body{
     background: #f7edd3;
@@ -58,6 +63,7 @@ header {
         flex-flow: column;
         justify-content: center;
         align-items: start;
+
         >h1{
             font-size: 80px;
             color: #f8eed4;
@@ -66,6 +72,7 @@ header {
             font-size: 18px;
             margin: 40px 0px;
             color: #dcdff7;
+            font-family: $op;
         }
         >button{
             background: #e185a9;
@@ -105,9 +112,111 @@ header {
                 >img{
                     width: 100%;
                     margin-right: 20px;
+                    margin-top: 9px;
                 }
                 >p{
                     font-size: 20px;
+                    font-family: $op;
+                }
+            }
+        }
+    }
+}
+
+.coffeBanner {
+    width: 100%;
+    position: relative;
+    >img{
+        width: 100%;
+        position: relative;
+        vertical-align: middle;
+    }
+    >.text{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+        >img{
+            margin-bottom: 30px;
+        }
+        >h3{
+            font-size: 40px;
+            max-width: 600px;
+            text-align: center;
+            font-weight: 400;
+            margin-bottom: 60px;
+        }
+        >p{
+            font-size: 30px;
+        }
+    }
+}
+
+.oPro {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    >img{
+        vertical-align: middle;
+        width: 23%;
+    }
+    >.products{
+        width: 77%;
+        padding: 100px 80px;
+        >div{
+            &:first-child{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                >h2{
+                    color: #1e2875;
+                    font-size: 52px;
+                }
+            }
+            &:last-child{
+                text-decoration: underline;
+                color: #1e2875;
+            }
+            &:nth-child(2){
+                display: flex;
+                width: max-content;
+                margin: 40px 0;
+                margin-left: -200px;
+                >div{
+                    width: 460px;
+                    margin-right: 20px;
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    >div{
+                        &:first-child{
+                            background: rgba(255,255,255,0.7);
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            >img{
+                                width: 100%;
+                            }
+                        }
+                        &:last-child{
+                            background: #e79eb9;
+                        }
+                        >h4{
+                            font-size: 32px;
+                            color: #f8eed3;
+                        }
+                        >p{
+                            font-size: 12px;
+                            color: #f8eed3;
+                            font-family: $op;
+                        }
+                    }
                 }
             }
         }

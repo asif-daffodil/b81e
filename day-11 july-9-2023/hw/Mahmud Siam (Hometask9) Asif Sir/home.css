@@ -1,0 +1,117 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 15vh;
+    /* background-color: aqua; */
+    padding: 10px;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: 1fr 3fr;
+}
+
+#logo {
+    background-image: url("./logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#nav {
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* LIST PART START */
+li {
+    background-color: black;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+li:hover {
+    background-color: cornflowerblue;
+    #dropab {
+        display: block;
+        position: absolute;
+        width: 140%;
+        left: -20%;
+    }
+}
+#dropab {
+    display: none;
+}
+#dropass {
+    display: none;
+}
+#dropab > li:hover {
+    #dropass {
+        display: block;
+        position: absolute;
+        width: 140%;
+        top: 0%;
+        left: 100%;
+    }
+}
+/* LIST PART SHESH */
+
+
+/* ANCHOR PART START */
+a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    display: block;
+}
+a:hover {
+    transform: scale(120%);
+}
+/* ANCHOR PART SHESH */
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+.products {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url("./products.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.core > p {
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.core > button {
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
+.core > button:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+.core >p:hover {
+    transform: scale(120%);
+}
