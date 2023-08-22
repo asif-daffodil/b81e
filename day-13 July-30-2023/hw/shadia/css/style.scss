@@ -1,0 +1,138 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+*body{
+    background: grey;
+}
+.yoga{width: 100%;
+   height: 100%;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ background: fixed;
+
+ 
+
+ 
+ >img{
+    
+ }
+ >.a{
+    display: flex;
+        position: absolute;
+       justify-items: right;
+       >img{
+            display: flex;
+                position: absolute;
+                left: 200px;
+         
+        max-inline-size: 300px;
+    
+        padding: 50px;
+    }}
+ >.b{ position: absolute;
+     top: 0;left: 0;right: 0;bottom: 0;
+         display: flex;
+       
+        justify-content: end;
+         flex-direction: column;
+         >img{
+
+            display: block; 
+            max-inline-size: 100%;}
+             
+             >div{
+                 top: 0px;left: 0;right: 0;bottom: 0px;
+                 display: flex; 
+                 position: absolute;
+        align-items: center;
+      justify-items: center;    
+flex-direction: column;
+
+
+>li{  display: block;
+    position: absolute;
+       flex-direction: column;
+      align-content: center;
+       justify-items:center;
+       bottom: 500px;
+    
+  
+      
+     >h1{ text-align: right;
+        
+             font-size: 150px;
+            color: #ffff;}
+        >h5{
+            text-align: right;
+            font-size: 35px;
+            color: #ffff;
+        }
+        >p{
+            text-align: right;
+            
+            color: #ffff;
+           
+            max-width: 800px;
+           
+        } }}
+>.f{
+    position: absolute;
+    top: 0px;left: 0;right: 0;bottom: 0px;
+        display: flex;
+        flex-direction: row;
+     justify-content: space-between;
+     align-items: end;
+     max-width: 1100px;
+     margin: auto;
+        >nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+            padding: 60px;
+            >ul{  display: flex;
+                flex-direction: column;
+                align-items: center;
+                list-style: none;
+               
+                >li{
+                    
+                    color: #40505b;
+                    font-size: 25px;
+                  font-weight: lighter;
+                }
+            }
+        }
+        >.e{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            padding: 60px;
+            >ul{ display: flex;
+                flex-direction: column;
+                align-items: center;
+                list-style: none;
+               
+                >li{>h4{
+                    color: #ffff;
+                    font-weight: 50;
+                }>h3{
+                    
+                    font-weight: 350;
+                  
+                }
+                    margin: 12px;
+                    font-size: 35px;
+                    color: #40505b;
+                
+                }
+              
+            }
+
+        }
+}   
+}
+       
+}

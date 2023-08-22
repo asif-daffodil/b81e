@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header {
+    width: 1440px;
+    height: 100px;
+    background: #1d2775;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+    >figure {
+        margin-left: 60px;
+    }
+
+    >nav {
+        >ul {
+            list-style: none;
+            display: flex;
+            >li{
+                margin: 0px 40px;
+                
+                >a{
+                    color: #f8eed4;
+                    text-decoration: none;
+                    font-size: 20px;
+                }
+            }
+            
+        }
+    }
+
+
+}
+
+.section1 {
+    width: 1440px;
+    background: #1d2775;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    vertical-align: middle;
+ 
+    >figure {
+        >img{
+            max-width: 100%;
+            // padding-right: 100px;
+            vertical-align: middle;
+            padding-right: 80px;
+            
+        }
+
+        
+
+    }
+    >div {
+        display: flex;
+        flex-flow: column;
+        justify-content:start;
+        align-items: start;
+        padding-right: 100px;
+        padding-top: 100px;
+        
+        
+        >h1{
+            font-size: 90px;
+            color: #f8eed4;
+            
+        }
+        >p {
+            font-size: 20px;
+            color: #f8eed4;
+            margin-top: 80px;
+            margin-bottom: 30px;
+        }
+        >button {
+            background: #e185a9;
+            border-width: 0;
+            color: #fff;
+            font-size: 22px;
+            width: 170px;
+            height: 50px;
+            margin-top: 74px;
+        }
+    }
+}
+
+.section2 {
+    width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #f7edd3;
+    position: relative;
+    vertical-align: middle;
+    
+    >figure {
+        >img {
+            width: 600px;
+            margin-top: 40px;
+            margin-left: 50px;
+      
+        }
+    }
+    >div {
+        display: flex;
+        flex-flow: column;
+        justify-content: start;
+        align-items: start;
+        margin-top: 134px;
+        margin-left: 100px;
+        vertical-align: middle;
+         >h1{
+            font-size: 70px;
+            color: #1d2775;
+            margin-bottom: 50px;
+         }
+       
+         >ul {
+            list-style: none;
+
+            >li{
+                display: flex;
+                margin: 20px 20px 20px 0;
+                justify-content: start;
+                >p {
+                    font-size: 25px;
+                }
+                >img{
+                    margin-right: 20px;
+                    width: 20px;
+                    height: 20px;
+                }
+                
+            }
+         }
+    }
+    
+}
+
+.section3 {
+    width: 1440px;
+    height: 474px;
+    margin: auto;
+    background-image: url(../images/coffeebanner.png);
+    position: relative;
+    vertical-align: middle;
+   
+   
+    >h1 {
+
+        font-size: 42px;
+        color: #ffffff;
+        text-align: center;
+        padding: 40px 0;
+       
+        
+        >i {
+            font-size: 32px;
+        }
+        >h3 {
+            font-size: 200px;
+           
+        }
+    }
+    
+}
+
+
+
+.section5 {
+    width: 1440px;
+    height: 800px;
+    margin: auto;
+    background: #1d2775;
+    position: relative;
+    >h1 {
+        font-size: 52px;
+        color: #f7edd3;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+        >.main5 {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 100px;
+            padding-top: 30px;
+           >div {
+            width: 350px;
+            height: 520px;
+            background: #eedee4;
+            margin: 50px 30px;
+            >.f2 {
+                >p {
+                    text-align: center;
+                    padding-top: 40px;
+                    
+                }
+            }
+           }
+        }
+}
+
+.section6 {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+
+    >.main6 {
+        display: flex;
+
+        >.left {
+            position: relative;
+            overflow: visible;
+           >.play {
+            position: absolute;
+            >img {
+                
+                z-index: 10;
+                
+            }
+           }
+             }
+        >.right{
+            width: 300px;
+        }
+    }
+
+
+}
+
+.section7 {
+    width: 1440px;
+    margin: auto;
+    background: #f7edd3;
+    display: flex;
+    vertical-align: middle;
+    >.comment {
+        margin-left: 50px;
+        margin-top: 100px;
+        >h1 {
+            font-size: 52px;
+            color: #1e2875;
+        }
+        >form {
+            >input {
+                width: 390px;
+                height: 60px;
+                background-color: #ece3cd;
+                margin:10px;
+                border:lightgray 0.5px solid;
+            }
+        }
+    }
+}
+
+.section8 {
+    width: 1440px;
+    height: 450px;
+    background-color: #1e2875;
+    margin: auto;
+    >h1 {
+      text-align: center;
+      font-size: 58px;
+      color: #f7edd3;
+      padding-top:140px ;
+    }
+    >p {
+        text-align: center;
+        font-size: 18;
+        color: #eedee4;
+        margin-bottom: 50px;
+    }
+    >div {
+        margin-left: 400px;
+       >input {
+        margin-right: 0;
+        width: 450px;
+        height: 50px;
+        background: transparent;
+        border: 1px solid white;
+              }
+       >button {
+        margin-left: 0;
+        height: 50px;
+        width: 150px;
+        background: white;
+        color:#1e2875 ;
+        border: 1px solid white;
+         }
+    }
+
+    }
+
+.footerbar {
+    width: 1440px;
+    height: 250px;
+    margin: auto;
+    background: #f7edd3;
+    display: flex;
+    >div {
+        width: 20%;
+        height: 90%;
+        margin: 5px;
+        display: flex;
+        flex-flow: column;
+    }
+}
