@@ -3,7 +3,7 @@ import Menubar from "./Components/Menubar";
 
 function App() {
   return (
-    <div className="w-screen overflow-hidden">
+    <div className="overflow-hidden">
       <Menubar />
       <Outlet />
     </div>
