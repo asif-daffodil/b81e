@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Joy Bangla
+    </p>
+    <div>
+        <p align="center" class="akash">
+            <font size="3">
+                Bangladesh Awami League
+            </font>
+        </p>
+        <button>Left</button>
+        <button>Center</button>
+        <button>Right</button>
+        <button>Small</button>
+        <button>Normal</button>
+        <button>Big</button>
+        <button>Bangladesh Awami League</button>
+        <button>Joy Bangla</button>
+    </div>
+
+    <div id="picnic">
+        <p>Alllahu Akbar</p>
+    </div>
+    <button id="pr">
+        Pubail Resort
+    </button>
+    <button id="pj">Delete Element</button>
+
+    <div id="d1">Dhaka</div>
+    <div id="d2">Dhamrai</div>
+    <button id="rplc">Replace</button>
+
+    <form action="" id="myForm">
+        <input type="text" name="fname" placeholder="Student Name">
+        <button type="submit">Show Name</button>
+    </form>
+
+    <button id="apej">Akash Picnic E Jabe</button>
+
+    <script>
+        document.getElementsByTagName("p")[1].addEventListener("click", () =>{
+            alert("Joy Bangla")
+        })
+
+        const akashPera = document.getElementsByClassName("akash")[0];
+        const font = akashPera.firstElementChild;
+        const leftBtn = akashPera.nextElementSibling;
+        const centerBtn = leftBtn.nextElementSibling;
+        const rightBtn = centerBtn.nextElementSibling;
+        const smallBtn = rightBtn.nextElementSibling;
+        const normalBtn = smallBtn.nextElementSibling;
+        const bigBtn = normalBtn.nextElementSibling;
+        const bal = bigBtn.nextElementSibling;
+        const joy = bal.nextElementSibling;
+
+        leftBtn.addEventListener("click", () =>{
+            akashPera.align = "left";
+        })
+        centerBtn.addEventListener("click", () =>{
+            akashPera.align = "center";
+        })
+        rightBtn.addEventListener("click", () =>{
+            akashPera.align = "right";
+        })
+        smallBtn.addEventListener("click", () =>{
+            font.size = 1;
+        })
+        normalBtn.addEventListener("click", () =>{
+            font.size = 3;
+        })
+        bigBtn.addEventListener("click", () =>{
+            font.setAttribute("size", 6);
+        })
+        bal.addEventListener("click", () =>{
+            font.textContent = "Bangladesh Awami League";
+        })
+        joy.addEventListener("click", () =>{
+            font.textContent = "Joy Bangla";
+        })
+    </script>
+
+    <script>
+        const pic = document.getElementById("picnic");
+        const prBtn = document.getElementById("pr");
+        const pjBtn = document.getElementById("pj");
+
+        prBtn.addEventListener('click', () => {
+            const p = document.createElement("p");
+            p.textContent = "Mashallah";
+            pic.appendChild(p);
+        })
+        pjBtn.addEventListener('click', () => {
+            pic.removeChild(pic.lastElementChild);
+        })
+    </script>
+    <script src="./script.js"></script>
+    <script>
+        const d1  = document.querySelector("#d1");
+        const d2  = document.getElementById("d2");
+        const rplcBtn = document.getElementById("rplc");
+        rplcBtn.addEventListener("click", () =>{
+            document.body.replaceChild(d1, d2);
+        })
+    </script>
+    <script>
+        const myForm = document.getElementById("myForm");
+        myForm.addEventListener("submit", (e)=>{
+            e.preventDefault();
+            const sname = document.forms[0].fname.value;
+            alert(sname);
+        })
+
+        const apejBtn = document.getElementById("apej");
+        apejBtn.addEventListener("click", () =>{
+            location.reload();
+        })
+    </script>
+</body>
+</html>

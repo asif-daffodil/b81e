@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tousif {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.india, .bangladesh {
+    display: block;
+    margin: auto;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+#akash {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000;
+    background: #fff;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.hasan {
+    display: flex;
+    justify-content: center;
+    >img{
+        max-width: 300px;
+    }
+}
