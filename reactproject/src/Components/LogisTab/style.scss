@@ -1,0 +1,20 @@
+$inActive : #c2cbdf;
+$active: #0d42ff;
+.tab-menu{
+    >li{
+        border-left: 2px solid $inActive;
+        padding-left: 20px;
+        cursor: pointer;
+        &:not(:last-child){
+            margin-bottom: 20px;
+        }
+        &:hover{
+            border-left: 2px solid $active;
+        }
+    }
+}
+
+.active{
+    border-left: 2px solid $active !important;
+    font-weight: bold;
+}
