@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const Menubar = () => {
   useEffect(() => {
@@ -43,16 +44,26 @@ const Menubar = () => {
                 className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 w-screen"
               >
                 <li>
-                  <a>Home</a>
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      isActive ? "font-bold text-white" : ""
+                    }
+                    style={{color: "white"}}
+                  >
+                    Home
+                  </NavLink>
                 </li>
                 <li>
-                  <a>About</a>
+                  <NavLink to="/about" className={({ isActive }) =>
+                      isActive ? "font-bold text-white" : ""
+                    } style={{color: "white"}}>About</NavLink>
                 </li>
                 <li>
-                  <a>Services</a>
+                  <NavLink to="/services" className={({ isActive }) => isActive ? "font-bold text-white" : ""} style={{color: "white"}}>Services</NavLink>
                 </li>
                 <li>
-                  <a>Pricing</a>
+                  <NavLink to="/pricing" className={({ isActive }) => isActive ? "font-bold text-white" : ""} style={{color: "white"}}>Pricing</NavLink>
                 </li>
                 <li>
                   <details>
@@ -74,19 +85,21 @@ const Menubar = () => {
             </div>
             <a className="btn btn-ghost text-xl">Logis</a>
           </div>
-          <div className="navbar-end hidden lg:flex">
+          <div className="navbar-end hidden lg:flex text-neutral-50">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Home</a>
+              <NavLink className={({isActive}) => isActive ? "font-bold text-white":"text-white"} style={{color: "white"}}>
+                    Home
+                  </NavLink>
               </li>
               <li>
-                <a>About</a>
+                <NavLink to="/about" className={({isActive}) => isActive ? "font-bold text-white":"text-white"} style={{color: "white"}}>About</NavLink>
               </li>
               <li>
-                <a>Services</a>
+              <NavLink to="/services" className={({isActive}) => isActive ? "font-bold text-white":"text-white"} style={{color: "white"}}>Services</NavLink>
               </li>
               <li>
-                <a>Pricing</a>
+              <NavLink to="/pricing" className={({isActive}) => isActive ? "font-bold text-white":"text-white"} style={{color: "white"}}>Pricing</NavLink>
               </li>
               <li>
                 <details>
