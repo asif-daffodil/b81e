@@ -8,8 +8,8 @@ const HeroBottom = () => {
         navigate("/logis");
     };
   return (
-    <div className="grid grid-cols-3 gap-3 container mx-auto my-24">
-      <div className="flex gap-4 group cursor-pointer" onClick={goLogis}>
+    <div className="grid md:grid-cols-3 gap-3 container mx-auto my-24">
+      <div className="flex gap-4 group cursor-pointer" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" data-aos-once={true} onClick={goLogis}>
         <div className="flex-shrink text-5xl text-blue-900 group-hover:text-blue-600">
             <FontAwesomeIcon icon={faCartFlatbed} />
         </div>
@@ -27,7 +27,7 @@ const HeroBottom = () => {
           </a>
         </div>
       </div>
-      <div className="flex gap-4 group cursor-pointer" onClick={goLogis}>
+      <div className="flex gap-4 group cursor-pointer" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" data-aos-once={true} onClick={goLogis}>
         <div className="flex-shrink text-5xl text-blue-900 group-hover:text-blue-600">
             <FontAwesomeIcon icon={faTruck} />
         </div>
@@ -45,7 +45,7 @@ const HeroBottom = () => {
           </a>
         </div>
       </div>
-      <div className="flex gap-4 group cursor-pointer" onClick={goLogis}>
+      <div className="flex gap-4 group cursor-pointer" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500" data-aos-once={true} onClick={goLogis}>
         <div className="flex-shrink text-5xl text-blue-900 group-hover:text-blue-600">
             <FontAwesomeIcon icon={faTruckRampBox} />
         </div>

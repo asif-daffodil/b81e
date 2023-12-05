@@ -2,15 +2,16 @@ import "./hero.css";
 import himg from "../../../assets/hero-img.svg";
 import CountUp from 'react-countup';
 
+
 const Hero = () => {
   return (
     <div className="hero herobaz overflow-hidden">
       <div className="min-h-screen hero-content grid md:grid-cols-2">
         <img
           src={himg}
-          className="md:order-last max-w-[100%] box-border p-12"
-        />
-        <div className="text-white">
+          className="md:order-last max-w-[100%] box-border p-12" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="100"
+          />
+        <div className="text-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
           <h1 className="text-5xl font-bold">Your Lightning Fast Delivery Partner</h1>
           <p className="py-6">
           Facere distinctio molestiae nisi fugit tenetur repellat non praesentium nesciunt optio quis sit odio nemo quisquam. eius quos reiciendis eum vel eum voluptatem eum maiores eaque id optio ullam occaecati odio est possimus vel reprehenderit

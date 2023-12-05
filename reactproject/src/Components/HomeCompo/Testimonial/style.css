@@ -1,0 +1,7 @@
+.carousel.carousel-slider {
+    overflow: visible !important;
+}
+
+.carousel .control-dots {
+    bottom: -40px;
+}
